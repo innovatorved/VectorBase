@@ -1,11 +1,30 @@
 # VectorBase - A Vector Image Search Engine
-VectorBase is a vector image search engine shared on GitHub. It uses vector databases for quick, accurate image search. Its interface and advanced algorithms make it perfect for personal use. Find the ideal vector image for your project in seconds with VectorBase.
 
+Our powerful image search engine uses vector databases to store and search for similar images. Upload your images and use an input image to quickly identify the closest matches. With our app, you can easily organize and search your image collection with speed and accuracy. Try it today!
 
-    Add Images to images folder and run the program to index them.
+## Run `DockerCompose` file
+
+```bash
+    docker-compose up --build
+```
+
+## Create schema for vector databases
+
+```bash
+    yarn run create-schema
+```
+
+## Add Images 
+
+Add Images to `images` folder with proper `filename` that consist details about image and run the program to index them.
     
 ```bash
+    yarn run add-imgs
+```
 
+## Run the program to search for images
+Note : Please make sure before searching an same likely image please add you test image in to `test` folder.
 
-
+```bash
+    yarn run search
 ```
