@@ -1,10 +1,5 @@
-import weaviate from 'weaviate-ts-client';
 import Schema from "../model/Image.js";
-
-const client = weaviate.client({
-    scheme: 'http',
-    host: 'localhost:8080',
-});
+import client from './client.js';
 
 await client.schema
     .classCreator()

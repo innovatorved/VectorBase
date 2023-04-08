@@ -1,11 +1,14 @@
-const fs = require('fs');
-const path = require('path');
+import  {readdirSync,readFileSync,writeFileSync} from "fs";
+import path from "path";
 
-const outDir = path.join(__dirname, 'out');
+import client from "./client.js";
 
-const testDir = path.join(__dirname, 'test');
-const testFile = fs.readdirSync(testDir)[0];
-const test = Buffer.from(fs.readFileSync(path.join(testDir, testFile))).toString('base64');
+const __dirname = path.dirname(new URL(import.meta.url).pathname);
+
+const outDir = path.join(__dirname, '..', 'out');
+const testDir = path.join(__dirname, '..', 'test');
+const testFile = readdirSync(testDir)[0];
+const test = Buffer.from(readFileSync(path.join(testDir, testFile))).toString('base64');
 
 
 let limit = 1;
@@ -17,4 +20,4 @@ const resImage = await client.graphql.get()
   .do();
 
 const result = resImage.data.Get.imgsearch[0].image;
-fs.writeFileSync(path.join( outDir , `result-${0}.jpg`), result, 'base64');
+writeFileSync(path.join( outDir , `result-${0}.jpg`), result, 'base64');
