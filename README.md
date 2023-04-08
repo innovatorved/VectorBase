@@ -6,7 +6,7 @@ Our powerful image search engine uses vector databases to store and search for s
 ## Run `DockerCompose` file
 
 ```bash
-    docker-compose up --build
+    docker-compose up -d
 ```
 
 ## Create schema for vector databases
