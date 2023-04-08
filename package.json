@@ -1,0 +1,17 @@
+{
+  "name": "vector-base",
+  "version": "1.0.0",
+  "description": "VectorBase is a vector image search engine shared on GitHub. It uses vector databases for quick, accurate image search. Its interface and advanced algorithms make it perfect for personal use. Find the ideal vector image for your project in seconds with VectorBase.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "check-schema" : "node ./src/CheckSchema.js"
+  },
+  "repository": "https://github.com/innovatorved/VectorBase",
+  "author": "Ved Gupta <vedgupta@protonmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "graphql": "^16.6.0",
+    "weaviate-ts-client": "^1.0.0"
+  }
+}
