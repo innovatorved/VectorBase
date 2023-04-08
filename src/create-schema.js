@@ -1,5 +1,5 @@
 import weaviate from 'weaviate-ts-client';
-import Schema from "./model/Image.js";
+import Schema from "../model/Image.js";
 
 const client = weaviate.client({
     scheme: 'http',

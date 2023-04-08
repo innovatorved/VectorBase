@@ -5,7 +5,10 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "check-schema" : "node ./src/CheckSchema.js"
+    "check-schema" : "node ./src/check-schema.js",
+    "add-imgs" : "node ./src/add-images.js",
+    "search" : "node ./src/search.js",
+    "create-schema" : "node ./src/create-schema.js"
   },
   "repository": "https://github.com/innovatorved/VectorBase",
   "author": "Ved Gupta <vedgupta@protonmail.com>",
