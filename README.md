@@ -29,3 +29,22 @@ Note : Please make sure before searching an same likely image please add you tes
 ```bash
     yarn run search
 ```
+
+## Reference
+
+- [https://learn.microsoft.com/en-us/semantic-kernel/concepts-ai/vectordb](https://learn.microsoft.com/en-us/semantic-kernel/concepts-ai/vectordb)
+- [https://weaviate.io/developers/wcs](https://weaviate.io/developers/wcs)
+
+  
+## Authors
+
+- [Ved Gupta](https://www.github.com/innovatorved)
+
+  
+## 🚀 About Me
+I'm a Developer i will feel the code then write .
+
+  
+## Support
+
+For support, email vedgupta@protonmail.com
