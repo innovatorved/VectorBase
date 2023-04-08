@@ -102,3 +102,8 @@ dist
 
 # TernJS port file
 .tern-port
+
+# ignore output 
+out/*.jpg
+out/*.png
+out/*.gif
