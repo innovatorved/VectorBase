@@ -1,4 +1,4 @@
-# VectorBase - A Vector Image Search Engine
+# VectorBase - A Powerful and Accurate Search Engine for Your Image Collection
 
 Our powerful image search engine uses vector databases to store and search for similar images. Upload your images and use an input image to quickly identify the closest matches. With our app, you can easily organize and search your image collection with speed and accuracy. Try it today!
 
