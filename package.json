@@ -5,10 +5,11 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "check-schema" : "node ./src/check-schema.js",
-    "add-imgs" : "node ./src/add-images.js",
-    "search" : "node ./src/search.js",
-    "create-schema" : "node ./src/create-schema.js"
+    "check-schema": "node ./src/check-schema.js",
+    "add-imgs": "node ./src/add-images.js",
+    "search": "node ./src/search.js",
+    "create-schema": "node ./src/create-schema.js",
+    "prettier": "prettier --write ."
   },
   "repository": "https://github.com/innovatorved/VectorBase",
   "author": "Ved Gupta <vedgupta@protonmail.com>",
@@ -16,5 +17,8 @@
   "dependencies": {
     "graphql": "^16.6.0",
     "weaviate-ts-client": "^1.0.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.7"
   }
 }

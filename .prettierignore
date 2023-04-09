@@ -1,0 +1,39 @@
+# Ignore gitignored files
+.gitignored
+# Ignore node_modules directory
+node_modules
+# Ignore coverage reports
+coverage
+# Ignore build artifacts
+build
+dist
+# Ignore log files
+*.log
+# Ignore binary files
+*.jpg
+*.jpeg
+*.png
+*.gif
+# Ignore fonts and icons
+*.eot
+*.ttf
+*.woff
+*.woff2
+*.svg
+# Ignore generated files
+*.min.js
+*.min.css
+*.map
+# Ignore files starting with a dot
+.*
+# Ignore test fixtures
+__fixtures__
+# Ignore test snapshots
+__snapshots__
+# Ignore ESLint cache files
+.eslintcache
+# Ignore TypeScript cache files
+*.tsbuildinfo
+
+# DockerFile
+docker-compose.yml
